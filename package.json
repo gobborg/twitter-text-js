@@ -11,7 +11,7 @@
   "author": "Twitter Inc.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/twitter/twitter-text.git"
+    "url": "https://github.com/gobborg/twitter-text-js.git"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.0",
