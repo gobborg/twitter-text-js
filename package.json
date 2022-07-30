@@ -52,7 +52,7 @@
     "build:prod": "npm run lint:check && rimraf dist && NODE_ENV=production babel src --out-dir dist/esm && NODE_ENV=production BABEL_ENV=commonjs babel src --out-dir dist",
     "lint:check": "eslint src rollup.config.js scripts",
     "lint": "npm run lint:check -- --fix",
-    "prepublishOnly": "npm run build:prod",
+    "prepublishOnly": "npm run build:prod"
   },
   "dependencies": {
     "@babel/runtime": "^7.3.1",
